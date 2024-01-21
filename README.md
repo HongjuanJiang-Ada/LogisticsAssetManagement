@@ -33,6 +33,7 @@ Provide step-by-step instructions on how to get a development environment runnin
 
 2. Build the project:
 
+    ```bash
     cd LogisticsAssetManagement
     cmake .
     make
