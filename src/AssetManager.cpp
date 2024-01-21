@@ -8,8 +8,8 @@ using namespace std;
 // Define the function as a member of AssetManager
 void AssetManager::addAsset(const string& name, const string& category, const string& purchase_date) {
     try {
-        // Connect to the database
-        sql::Connection* con = DatabaseConnection::getConnection();
+        // Get the SQL connection from the DatabaseConnection
+        sql::Connection* con = dbConn->getConnection();
 
         // Prepare the SQL statement
         unique_ptr<sql::PreparedStatement> pstmt(con->prepareStatement("INSERT INTO Assets(name, category, purchase_date) VALUES (?, ?, ?)"));
