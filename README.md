@@ -9,6 +9,7 @@ Briefly describe what your LogisticsAssetManagement project is about. Explain th
 The key features of the project:
 
 - Asset management system
+  - Asset Registration
 - Database integration with MySQL
 - Easy tracking of assets
 
