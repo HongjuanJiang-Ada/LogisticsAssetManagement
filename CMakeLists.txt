@@ -1,14 +1,17 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 project(LogisticsAssetManagement)
 
 set(CMAKE_CXX_STANDARD 11)
 
-# Include and Link Directories for unixODBC
-include_directories(/opt/homebrew/opt/unixodbc/include)
-include_directories(/opt/homebrew/include)
-link_directories(/opt/homebrew/opt/unixodbc/lib)
+# Include MySQL Connector/C++ headers
+include_directories(/usr/local/mysql-connector-c++/include/jdbc)
 
+# Add the directory containing the libraries
+link_directories(/usr/local/mysql-connector-c++/lib64)
+
+# Specify the target and source files
 add_executable(LogisticsAssetManagement main.cpp AssetManager.cpp)
 
-# Link against the ODBC library
-target_link_libraries(LogisticsAssetManagement odbc)
+# Link against MySQL Connector/C++ library
+target_link_libraries(LogisticsAssetManagement mysqlcppconn)
+

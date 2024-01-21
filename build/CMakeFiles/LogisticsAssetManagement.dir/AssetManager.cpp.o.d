@@ -737,11 +737,14 @@ CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /opt/homebrew/opt/unixodbc/include/sql.h \
-  /opt/homebrew/opt/unixodbc/include/sqltypes.h \
-  /opt/homebrew/opt/unixodbc/include/unixodbc.h \
-  /opt/homebrew/opt/unixodbc/include/sqlext.h \
-  /opt/homebrew/opt/unixodbc/include/sqlucode.h \
+  /usr/local/mysql-connector-c++/include/jdbc/mysql_driver.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/driver.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/connection.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tree \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/build_config.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/warning.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/sqlstring.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__locale \
@@ -796,4 +799,19 @@ CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdarg
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdarg \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/variant.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/list \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/exception.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/callback.h \
+  /usr/local/mysql-connector-c++/include/jdbc/mysql_connection.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/prepared_statement.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/statement.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/config.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/inttypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_inttypes.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/resultset.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/resultset_metadata.h \
+  /usr/local/mysql-connector-c++/include/jdbc/cppconn/datatype.h

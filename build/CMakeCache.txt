@@ -222,6 +222,15 @@ LogisticsAssetManagement_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 LogisticsAssetManagement_SOURCE_DIR:STATIC=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement
 
+//Path to unixODBC or iODBC config program
+ODBC_CONFIG:FILEPATH=/opt/homebrew/bin/odbc_config
+
+//Path to a file.
+ODBC_INCLUDE_DIR:PATH=/opt/homebrew/include
+
+//Path to a library.
+ODBC_LIBRARY:FILEPATH=/opt/homebrew/lib/libodbc.dylib
+
 
 ########################
 # INTERNAL cache entries
@@ -366,4 +375,12 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding ODBC
+FIND_PACKAGE_MESSAGE_DETAILS_ODBC:INTERNAL=[/opt/homebrew/lib/libodbc.dylib][/opt/homebrew/include][v()]
+//ADVANCED property for variable: ODBC_CONFIG
+ODBC_CONFIG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ODBC_INCLUDE_DIR
+ODBC_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ODBC_LIBRARY
+ODBC_LIBRARY-ADVANCED:INTERNAL=1
 

@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/homebrew/opt/unixodbc/include -I/opt/homebrew/include
+CXX_INCLUDES = -I/usr/local/mysql-connector-c++/include/jdbc
 
 CXX_FLAGSarm64 = -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
 
