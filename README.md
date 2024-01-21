@@ -1,15 +1,32 @@
 # LogisticsAssetManagement
 
-Prototype project for the logistics asset management backend system
+## Project Overview
 
-## Basic feature: asset registration
+Briefly describe what your LogisticsAssetManagement project is about. Explain the problem it solves or the functionality it provides.
 
-I am trying to use MySQL for database and use ODBC connecting to database. But there is somting wrong. I cannot find the data in database.
+## Features
 
-## Feature 1: asset registration - addAsset()
+The key features of the project:
 
-Database: a table include asset_id, name, category and purchase date
+- Asset management system
+- Database integration with MySQL
+- Easy tracking of assets
 
-### Improvement: centralize database interactions within a specific class to avoid multiple connections
+## Getting Started
 
-Improve code mmaintainability and reduce redundancy
+### Prerequisites
+
+Mention any prerequisites required to run your project, such as:
+
+- C++ Compiler (GCC, Clang)
+- MySQL Server
+- MySQL Connector/C++
+
+### Installation
+
+Provide step-by-step instructions on how to get a development environment running:
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://your-repository-url.git
