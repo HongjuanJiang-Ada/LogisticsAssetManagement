@@ -3,6 +3,6 @@
 int main() {
     // Create an instance of AssetManager
     AssetManager manager;
-    manager.addAsset("Mobile Phone", "Electronics", "2020-02-01");
+    manager.addAsset("Airpods", "Electronics", "2020-03-01");
     return 0;
 }
