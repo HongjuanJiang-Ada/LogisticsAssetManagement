@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/AssetManager.cpp" "CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.o" "gcc" "CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.o.d"
+  "/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/DatabaseConnection.cpp" "CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.o" "gcc" "CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.o.d"
   "/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/main.cpp" "CMakeFiles/LogisticsAssetManagement.dir/main.cpp.o" "gcc" "CMakeFiles/LogisticsAssetManagement.dir/main.cpp.o.d"
   )
 

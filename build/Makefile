@@ -153,6 +153,30 @@ AssetManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.s
 .PHONY : AssetManager.cpp.s
 
+DatabaseConnection.o: DatabaseConnection.cpp.o
+.PHONY : DatabaseConnection.o
+
+# target to build an object file
+DatabaseConnection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.o
+.PHONY : DatabaseConnection.cpp.o
+
+DatabaseConnection.i: DatabaseConnection.cpp.i
+.PHONY : DatabaseConnection.i
+
+# target to preprocess a source file
+DatabaseConnection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.i
+.PHONY : DatabaseConnection.cpp.i
+
+DatabaseConnection.s: DatabaseConnection.cpp.s
+.PHONY : DatabaseConnection.s
+
+# target to generate assembly for a file
+DatabaseConnection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.s
+.PHONY : DatabaseConnection.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... AssetManager.o"
 	@echo "... AssetManager.i"
 	@echo "... AssetManager.s"
+	@echo "... DatabaseConnection.o"
+	@echo "... DatabaseConnection.i"
+	@echo "... DatabaseConnection.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

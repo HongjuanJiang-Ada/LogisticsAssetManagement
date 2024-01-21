@@ -737,6 +737,7 @@ CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/DatabaseConnection.h \
   /usr/local/mysql-connector-c++/include/jdbc/mysql_driver.h \
   /usr/local/mysql-connector-c++/include/jdbc/cppconn/driver.h \
   /usr/local/mysql-connector-c++/include/jdbc/cppconn/connection.h \

@@ -10,7 +10,7 @@ include_directories(/usr/local/mysql-connector-c++/include/jdbc)
 link_directories(/usr/local/mysql-connector-c++/lib64)
 
 # Specify the target and source files
-add_executable(LogisticsAssetManagement main.cpp AssetManager.cpp)
+add_executable(LogisticsAssetManagement main.cpp AssetManager.cpp DatabaseConnection.cpp)
 
 # Link against MySQL Connector/C++ library
 target_link_libraries(LogisticsAssetManagement mysqlcppconn)
