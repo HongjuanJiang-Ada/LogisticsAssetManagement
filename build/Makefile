@@ -129,77 +129,77 @@ LogisticsAssetManagement/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/build
 .PHONY : LogisticsAssetManagement/fast
 
-AssetManager.o: AssetManager.cpp.o
-.PHONY : AssetManager.o
+src/AssetManager.o: src/AssetManager.cpp.o
+.PHONY : src/AssetManager.o
 
 # target to build an object file
-AssetManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.o
-.PHONY : AssetManager.cpp.o
+src/AssetManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.o
+.PHONY : src/AssetManager.cpp.o
 
-AssetManager.i: AssetManager.cpp.i
-.PHONY : AssetManager.i
+src/AssetManager.i: src/AssetManager.cpp.i
+.PHONY : src/AssetManager.i
 
 # target to preprocess a source file
-AssetManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.i
-.PHONY : AssetManager.cpp.i
+src/AssetManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.i
+.PHONY : src/AssetManager.cpp.i
 
-AssetManager.s: AssetManager.cpp.s
-.PHONY : AssetManager.s
+src/AssetManager.s: src/AssetManager.cpp.s
+.PHONY : src/AssetManager.s
 
 # target to generate assembly for a file
-AssetManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.s
-.PHONY : AssetManager.cpp.s
+src/AssetManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.s
+.PHONY : src/AssetManager.cpp.s
 
-DatabaseConnection.o: DatabaseConnection.cpp.o
-.PHONY : DatabaseConnection.o
+src/DatabaseConnection.o: src/DatabaseConnection.cpp.o
+.PHONY : src/DatabaseConnection.o
 
 # target to build an object file
-DatabaseConnection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.o
-.PHONY : DatabaseConnection.cpp.o
+src/DatabaseConnection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.o
+.PHONY : src/DatabaseConnection.cpp.o
 
-DatabaseConnection.i: DatabaseConnection.cpp.i
-.PHONY : DatabaseConnection.i
+src/DatabaseConnection.i: src/DatabaseConnection.cpp.i
+.PHONY : src/DatabaseConnection.i
 
 # target to preprocess a source file
-DatabaseConnection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.i
-.PHONY : DatabaseConnection.cpp.i
+src/DatabaseConnection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.i
+.PHONY : src/DatabaseConnection.cpp.i
 
-DatabaseConnection.s: DatabaseConnection.cpp.s
-.PHONY : DatabaseConnection.s
+src/DatabaseConnection.s: src/DatabaseConnection.cpp.s
+.PHONY : src/DatabaseConnection.s
 
 # target to generate assembly for a file
-DatabaseConnection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.s
-.PHONY : DatabaseConnection.cpp.s
+src/DatabaseConnection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.s
+.PHONY : src/DatabaseConnection.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LogisticsAssetManagement"
-	@echo "... AssetManager.o"
-	@echo "... AssetManager.i"
-	@echo "... AssetManager.s"
-	@echo "... DatabaseConnection.o"
-	@echo "... DatabaseConnection.i"
-	@echo "... DatabaseConnection.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/AssetManager.o"
+	@echo "... src/AssetManager.i"
+	@echo "... src/AssetManager.s"
+	@echo "... src/DatabaseConnection.o"
+	@echo "... src/DatabaseConnection.i"
+	@echo "... src/DatabaseConnection.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

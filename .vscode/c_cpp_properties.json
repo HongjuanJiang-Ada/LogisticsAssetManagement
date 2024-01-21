@@ -3,8 +3,10 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/usr/local/mysql-connector-c++/include/jdbc"
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "/usr/local/mysql-connector-c++/include/jdbc",
+                "${workspaceFolder}/**"
             ],
             "defines": [],
             "macFrameworkPath": [

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.o"
-  "CMakeFiles/LogisticsAssetManagement.dir/AssetManager.cpp.o.d"
-  "CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.o"
-  "CMakeFiles/LogisticsAssetManagement.dir/DatabaseConnection.cpp.o.d"
-  "CMakeFiles/LogisticsAssetManagement.dir/main.cpp.o"
-  "CMakeFiles/LogisticsAssetManagement.dir/main.cpp.o.d"
+  "CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.o"
+  "CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.o.d"
+  "CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.o"
+  "CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.o.d"
+  "CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o"
+  "CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o.d"
   "LogisticsAssetManagement"
   "LogisticsAssetManagement.pdb"
 )
