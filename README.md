@@ -30,3 +30,13 @@ Provide step-by-step instructions on how to get a development environment runnin
 
    ```bash
    git clone https://your-repository-url.git
+
+2. Build the project:
+
+    cd LogisticsAssetManagement
+    cmake .
+    make
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
