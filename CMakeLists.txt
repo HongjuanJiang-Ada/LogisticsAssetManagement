@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project(LogisticsAssetManagement)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 # Include MySQL Connector/C++ headers and project's include directory
 include_directories(/usr/local/mysql-connector-c++/include/jdbc)
