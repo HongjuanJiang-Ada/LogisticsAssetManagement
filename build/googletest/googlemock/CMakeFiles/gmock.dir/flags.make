@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/usr/local/mysql-connector-c++/include/jdbc -I/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/include -I/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/googletest/googlemock/include -I/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/googletest/googlemock -isystem /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/googletest/googletest/include -isystem /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/googletest/googletest
 
-CXX_FLAGSarm64 = -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk  -DGTEST_HAS_PTHREAD=1  
+CXX_FLAGSarm64 =  -fprofile-arcs -ftest-coverage -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk  -DGTEST_HAS_PTHREAD=1  
 
-CXX_FLAGS = -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk  -DGTEST_HAS_PTHREAD=1  
+CXX_FLAGS =  -fprofile-arcs -ftest-coverage -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk  -DGTEST_HAS_PTHREAD=1  
 

@@ -17,6 +17,9 @@ list(REMOVE_ITEM SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
 # Specify the target executable and source files to compile it from
 add_executable(LogisticsAssetManagement src/main.cpp ${SOURCES})
 
+# Enable test coverage
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
+
 # Link against MySQL Connector/C++ library
 target_link_libraries(LogisticsAssetManagement mysqlcppconn)
 

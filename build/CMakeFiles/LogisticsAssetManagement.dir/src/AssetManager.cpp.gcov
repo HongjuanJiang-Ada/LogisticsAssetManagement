@@ -1,0 +1,16 @@
+        -:    0:Source:/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/AssetManager.cpp
+        -:    0:Graph:AssetManager.cpp.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    0:Programs:0
+        -:    1:#include "AssetManager.h"
+        -:    2:#include <string>
+        -:    3:#include <iostream>
+        -:    4:
+        -:    5:using namespace std;
+        -:    6:
+        -:    7:// Define the function as a member of AssetManager
+    #####:    8:void AssetManager::addAsset(const string& name, const string& category, const string& purchase_date) {
+        -:    9:    //logic business related to asset registration
+    #####:   10:    dbService->addAssetToDatabase(name, category, purchase_date);
+    #####:   11:}
