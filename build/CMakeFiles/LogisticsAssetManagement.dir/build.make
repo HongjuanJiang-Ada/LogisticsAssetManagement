@@ -97,10 +97,24 @@ CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseConnection.cpp -o CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.s
 
+CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o: CMakeFiles/LogisticsAssetManagement.dir/flags.make
+CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o: /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseService.cpp
+CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o: CMakeFiles/LogisticsAssetManagement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o -MF CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o.d -o CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o -c /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseService.cpp
+
+CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseService.cpp > CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.i
+
+CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseService.cpp -o CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.s
+
 CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o: CMakeFiles/LogisticsAssetManagement.dir/flags.make
 CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o: /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/main.cpp
 CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o: CMakeFiles/LogisticsAssetManagement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o -MF CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o.d -o CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o -c /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/main.cpp
 
 CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.i: cmake_force
@@ -115,6 +129,7 @@ CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.s: cmake_force
 LogisticsAssetManagement_OBJECTS = \
 "CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.o" \
 "CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.o" \
+"CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o" \
 "CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o"
 
 # External object files for target LogisticsAssetManagement
@@ -122,10 +137,11 @@ LogisticsAssetManagement_EXTERNAL_OBJECTS =
 
 LogisticsAssetManagement: CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.o
 LogisticsAssetManagement: CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.o
+LogisticsAssetManagement: CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o
 LogisticsAssetManagement: CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o
 LogisticsAssetManagement: CMakeFiles/LogisticsAssetManagement.dir/build.make
 LogisticsAssetManagement: CMakeFiles/LogisticsAssetManagement.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LogisticsAssetManagement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LogisticsAssetManagement"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LogisticsAssetManagement.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

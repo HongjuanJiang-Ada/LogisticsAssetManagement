@@ -1,5 +1,6 @@
 #include "AssetManager.h"
 #include "DatabaseConnection.h"
+#include "DatabaseService.h"
 #include <iostream>
 #include <tuple>
 #include <string>
@@ -12,12 +13,13 @@ tuple<string, string, string> getAssetDetails();
 int main() {
     // Create a DatabaseConnection instance
     DatabaseConnection dbConn;
+    DatabaseService dbService(&dbConn);
 
     //get asset details from the user
     auto [name, category, purchase_date] = getAssetDetails();
 
     // Create an instance of AssetManager with the datbase connection and add the asset
-    AssetManager manager(&dbConn);
+    AssetManager manager(&dbService);
     manager.addAsset(name, category, purchase_date);
 
     return 0;

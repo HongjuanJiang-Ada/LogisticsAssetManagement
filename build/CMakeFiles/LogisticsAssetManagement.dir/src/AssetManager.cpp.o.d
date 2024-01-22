@@ -737,6 +737,7 @@ CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/include/DatabaseService.h \
   /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/include/DatabaseConnection.h \
   /usr/local/mysql-connector-c++/include/jdbc/mysql_driver.h \
   /usr/local/mysql-connector-c++/include/jdbc/cppconn/driver.h \
@@ -805,14 +806,4 @@ CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/list \
   /usr/local/mysql-connector-c++/include/jdbc/cppconn/exception.h \
   /usr/local/mysql-connector-c++/include/jdbc/cppconn/callback.h \
-  /usr/local/mysql-connector-c++/include/jdbc/mysql_connection.h \
-  /usr/local/mysql-connector-c++/include/jdbc/cppconn/prepared_statement.h \
-  /usr/local/mysql-connector-c++/include/jdbc/cppconn/statement.h \
-  /usr/local/mysql-connector-c++/include/jdbc/cppconn/config.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/inttypes.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/inttypes.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/inttypes.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_inttypes.h \
-  /usr/local/mysql-connector-c++/include/jdbc/cppconn/resultset.h \
-  /usr/local/mysql-connector-c++/include/jdbc/cppconn/resultset_metadata.h \
-  /usr/local/mysql-connector-c++/include/jdbc/cppconn/datatype.h
+  /usr/local/mysql-connector-c++/include/jdbc/mysql_connection.h
