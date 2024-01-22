@@ -10,11 +10,12 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 # Add the directory containing the MySQL Connector/C++ libraries
 link_directories(/usr/local/mysql-connector-c++/lib64)
 
-# Add source files in the src directory
+# Add source files in the src directory, excluding main.cpp
 file(GLOB SOURCES "src/*.cpp")
+list(REMOVE_ITEM SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
 
 # Specify the target executable and source files to compile it from
-add_executable(LogisticsAssetManagement ${SOURCES})
+add_executable(LogisticsAssetManagement src/main.cpp ${SOURCES})
 
 # Link against MySQL Connector/C++ library
 target_link_libraries(LogisticsAssetManagement mysqlcppconn)
@@ -30,7 +31,7 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 # Define a test executable target
 file(GLOB TEST_SOURCES "tests/*.cpp")
-add_executable(runUnitTests ${TEST_SOURCES})
+add_executable(runUnitTests ${TEST_SOURCES} ${SOURCES})  # Include project source files except main.cpp
 
 # Link the test executable with GoogleTest and the project's main library
 target_link_libraries(runUnitTests gtest gtest_main mysqlcppconn)
