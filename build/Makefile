@@ -255,6 +255,7 @@ src/AssetManager.o: src/AssetManager.cpp.o
 # target to build an object file
 src/AssetManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o
 .PHONY : src/AssetManager.cpp.o
 
 src/AssetManager.i: src/AssetManager.cpp.i
@@ -263,6 +264,7 @@ src/AssetManager.i: src/AssetManager.cpp.i
 # target to preprocess a source file
 src/AssetManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.i
 .PHONY : src/AssetManager.cpp.i
 
 src/AssetManager.s: src/AssetManager.cpp.s
@@ -271,6 +273,7 @@ src/AssetManager.s: src/AssetManager.cpp.s
 # target to generate assembly for a file
 src/AssetManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/AssetManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.s
 .PHONY : src/AssetManager.cpp.s
 
 src/DatabaseConnection.o: src/DatabaseConnection.cpp.o
@@ -279,6 +282,7 @@ src/DatabaseConnection.o: src/DatabaseConnection.cpp.o
 # target to build an object file
 src/DatabaseConnection.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o
 .PHONY : src/DatabaseConnection.cpp.o
 
 src/DatabaseConnection.i: src/DatabaseConnection.cpp.i
@@ -287,6 +291,7 @@ src/DatabaseConnection.i: src/DatabaseConnection.cpp.i
 # target to preprocess a source file
 src/DatabaseConnection.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.i
 .PHONY : src/DatabaseConnection.cpp.i
 
 src/DatabaseConnection.s: src/DatabaseConnection.cpp.s
@@ -295,6 +300,7 @@ src/DatabaseConnection.s: src/DatabaseConnection.cpp.s
 # target to generate assembly for a file
 src/DatabaseConnection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseConnection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.s
 .PHONY : src/DatabaseConnection.cpp.s
 
 src/DatabaseService.o: src/DatabaseService.cpp.o
@@ -303,6 +309,7 @@ src/DatabaseService.o: src/DatabaseService.cpp.o
 # target to build an object file
 src/DatabaseService.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o
 .PHONY : src/DatabaseService.cpp.o
 
 src/DatabaseService.i: src/DatabaseService.cpp.i
@@ -311,6 +318,7 @@ src/DatabaseService.i: src/DatabaseService.cpp.i
 # target to preprocess a source file
 src/DatabaseService.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.i
 .PHONY : src/DatabaseService.cpp.i
 
 src/DatabaseService.s: src/DatabaseService.cpp.s
@@ -319,6 +327,7 @@ src/DatabaseService.s: src/DatabaseService.cpp.s
 # target to generate assembly for a file
 src/DatabaseService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogisticsAssetManagement.dir/build.make CMakeFiles/LogisticsAssetManagement.dir/src/DatabaseService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.s
 .PHONY : src/DatabaseService.cpp.s
 
 src/main.o: src/main.cpp.o

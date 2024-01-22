@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o"
+  "CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o.d"
+  "CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o"
+  "CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o.d"
+  "CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o"
+  "CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o.d"
   "CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.o"
   "CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.o.d"
   "runUnitTests"

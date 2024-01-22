@@ -83,20 +83,68 @@ CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/tests/AssetManagerTest.cpp -o CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.s
 
+CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o: /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/AssetManager.cpp
+CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o -MF CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o -c /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/AssetManager.cpp
+
+CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/AssetManager.cpp > CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.i
+
+CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/AssetManager.cpp -o CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.s
+
+CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o: /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseConnection.cpp
+CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o -MF CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o -c /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseConnection.cpp
+
+CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseConnection.cpp > CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.i
+
+CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseConnection.cpp -o CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.s
+
+CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o: /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseService.cpp
+CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o -MF CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o.d -o CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o -c /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseService.cpp
+
+CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseService.cpp > CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.i
+
+CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseService.cpp -o CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.s
+
 # Object files for target runUnitTests
 runUnitTests_OBJECTS = \
-"CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.o"
+"CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.o" \
+"CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o" \
+"CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o" \
+"CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o"
 
 # External object files for target runUnitTests
 runUnitTests_EXTERNAL_OBJECTS =
 
 runUnitTests: CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/build.make
 runUnitTests: lib/libgtest.a
 runUnitTests: lib/libgtest_main.a
 runUnitTests: lib/libgtest.a
 runUnitTests: CMakeFiles/runUnitTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable runUnitTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runUnitTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

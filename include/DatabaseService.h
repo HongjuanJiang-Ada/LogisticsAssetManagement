@@ -10,7 +10,7 @@ class DatabaseService{ //Perform specific database operations (like CRUD operati
 public: 
     DatabaseService(DatabaseConnection* DatabaseConnection) : dbConn(DatabaseConnection){}
 
-    void addAssetToDatabase(const string& name, const string& category, const string& purchase_date);
+    virtual void addAssetToDatabase(const string& name, const string& category, const string& purchase_date);
 
 private:
     DatabaseConnection* dbConn; //Pointer to DatabaseConnection

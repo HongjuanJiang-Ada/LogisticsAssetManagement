@@ -3232,6 +3232,7 @@ CMakeFiles/LogisticsAssetManagement.dir/src/main.cpp.o: /Users/ada/Downloads/Log
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/include/AssetManager.h \
   /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/include/DatabaseConnection.h \
+  /Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/include/DatabaseService.h \
   /usr/local/mysql-connector-c++/include/jdbc/cppconn/build_config.h \
   /usr/local/mysql-connector-c++/include/jdbc/cppconn/callback.h \
   /usr/local/mysql-connector-c++/include/jdbc/cppconn/connection.h \

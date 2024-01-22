@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/AssetManager.cpp" "CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o" "gcc" "CMakeFiles/runUnitTests.dir/src/AssetManager.cpp.o.d"
+  "/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseConnection.cpp" "CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o" "gcc" "CMakeFiles/runUnitTests.dir/src/DatabaseConnection.cpp.o.d"
+  "/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/src/DatabaseService.cpp" "CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o" "gcc" "CMakeFiles/runUnitTests.dir/src/DatabaseService.cpp.o.d"
   "/Users/ada/Downloads/LogisticsBackend/LogisticsAssetManagement/tests/AssetManagerTest.cpp" "CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.o" "gcc" "CMakeFiles/runUnitTests.dir/tests/AssetManagerTest.cpp.o.d"
   )
 
