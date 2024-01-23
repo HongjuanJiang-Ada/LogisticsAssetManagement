@@ -1,4 +1,4 @@
-#ifndef DATABASESERVICE_H
+#ifndef DATABASESERVICE_H //header guards
 #define DATABASESERVICE_H
 
 #include "DatabaseConnection.h"
@@ -10,6 +10,7 @@ class DatabaseService{ //Perform specific database operations (like CRUD operati
 public: 
     DatabaseService(DatabaseConnection* DatabaseConnection) : dbConn(DatabaseConnection){}
 
+    //virtual to allow it to be overriden by a mock class
     virtual void addAssetToDatabase(const string& name, const string& category, const string& purchase_date);
 
 private:

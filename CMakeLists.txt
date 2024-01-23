@@ -12,10 +12,10 @@ link_directories(/usr/local/mysql-connector-c++/lib64)
 
 # Add source files in the src directory, excluding main.cpp for tests
 file(GLOB SOURCES "src/*.cpp")
-list(REMOVE_ITEM SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
+#list(REMOVE_ITEM SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
 
 # Specify the target executable and source files to compile it from
-add_executable(LogisticsAssetManagement src/main.cpp ${SOURCES})
+add_executable(LogisticsAssetManagement ${SOURCES})
 
 # Link against MySQL Connector/C++ library
 target_link_libraries(LogisticsAssetManagement mysqlcppconn)

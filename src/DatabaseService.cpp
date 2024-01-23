@@ -5,7 +5,7 @@
 using namespace std;
 
 void DatabaseService::addAssetToDatabase(const string& name, const string& category, const string& purchase_date) {
-    try {
+    try { //error handling
         // Prepare the SQL statement
         unique_ptr<sql::PreparedStatement> pstmt(dbConn->getConnection()->prepareStatement("INSERT INTO Assets(name, category, purchase_date) VALUES (?, ?, ?)"));
         pstmt->setString(1, name);

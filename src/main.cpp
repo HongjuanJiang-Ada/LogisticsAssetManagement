@@ -11,15 +11,13 @@ using namespace std;
 tuple<string, string, string> getAssetDetails();
 
 int main() {
-    // Create a DatabaseConnection instance
-    DatabaseConnection dbConn;
-    DatabaseService dbService(&dbConn);
+    DatabaseConnection dbConn;// Create and setup the Database Connection
+    DatabaseService dbService(&dbConn); // Create an instance of DatabaseService with the datbase connection
 
     //get asset details from the user
     auto [name, category, purchase_date] = getAssetDetails();
 
-    // Create an instance of AssetManager with the datbase connection and add the asset
-    AssetManager manager(&dbService);
+    AssetManager manager(&dbService); //Pass the DatabaseService instance to the AssetManager
     manager.addAsset(name, category, purchase_date);
 
     return 0;
